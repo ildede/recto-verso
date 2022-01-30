@@ -1,0 +1,148 @@
+:root {
+    --primary: #FFCE00;
+    --secondary: #FE4880;
+    --dark: #212121;
+    --light: #F3F3F3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0c0d0d;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header, section {
+    padding-top: 20px;
+    text-align: center;
+    color: #cccccc;
+}
+
+h1 {
+    font-family: cursive;
+    color: #FE4880;
+}
+
+h2 {
+    color: #FFCE00;
+}
+
+p {
+    margin: .5em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.flipping-card {
+    flex: 0 1 200px;
+    margin: 1em;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 200px;
+    perspective: 1000px;
+
+    transition:max-height 1s ease-out;
+    height:300px;
+    max-height:300px;
+}
+
+.reduced {
+    max-height: 70px;
+}
+
+.card__inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.card__inner.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: xx-large;
+
+    text-align: center;
+}
+
+.card__face--front {
+    background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+.card__face--back {
+    background-image: linear-gradient(to bottom right, var(--light), var(--dark));
+
+    transform: rotateY(180deg);
+}
+
+#final {
+    font-size: x-large;
+}
+
+#results {
+    margin-top: 2em;
+    font-size: large;
+}
+
+#results-button {
+    margin: 1em;
+    padding: .5em;
+    background-image: linear-gradient(to bottom right, var(--light), var(--primary));
+    border: 2px solid var(--secondary) .2;
+    border-radius: 5px;
+
+    font-size: large;
+    white-space: nowrap;
+}
+
+.buttons {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button {
+    flex: 1 1;
+    margin: 0 .5em;
+    padding: .5em;
+    background-image: linear-gradient(to bottom right, var(--light), var(--primary));
+    border: 2px solid var(--secondary) .2;
+    border-radius: 5px;
+
+    font-size: large;
+    white-space: nowrap;
+}
