@@ -161,3 +161,8 @@ a:hover {
     font-size: small;
     white-space: nowrap;
 }
+
+audio {
+    position: absolute;
+    right: 0;
+}
