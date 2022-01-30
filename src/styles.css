@@ -133,14 +133,13 @@ a:hover {
     font-size: large;
 }
 
-#results-button {
+.results-button {
     margin: 1em;
     padding: .5em;
     background-image: linear-gradient(to bottom right, var(--light), var(--primary));
     border: 2px solid var(--secondary) .2;
     border-radius: 5px;
 
-    font-size: large;
     white-space: nowrap;
 }
 

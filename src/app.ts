@@ -38,7 +38,7 @@ function revealCard(index: number) {
     const foundedEndings = localStorage.getItem('finals').split(',');
     let text = `
     <p>You have found ${foundedEndings.length} endings, can you find the other ${Object.keys(ENDINGS).length - foundedEndings.length}?</p>
-    <button id="results-button" onclick="location.reload()">REPLAY</button>
+    <button class="results-button" onclick="location.reload()">REPLAY</button>
     `;
 
     const achievement = ACHIVEMENT[gameState.who + gameState.where + gameState.what];
@@ -67,6 +67,8 @@ function revealCard(index: number) {
         text += `<p><h4>${ACHIVEMENT[a].title}</h4><i>${ACHIVEMENT[a].description}</i></p>`
       }
     });
+
+    text += `<button class="results-button" onclick="localStorage.clear();location.reload()">RESET ACHIEVEMENTS</button>`
 
     document.querySelector('#results').innerHTML = text;
   }
