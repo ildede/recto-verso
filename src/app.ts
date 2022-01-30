@@ -1,5 +1,5 @@
 import {FlippingCard} from './flipping-card'
-import {FINALS, getCards} from "./constant";
+import {ACHIVEMENT, ENDINGS, getCards} from "./constant";
 
 customElements.define('flipping-card', FlippingCard, {extends: 'div'});
 
@@ -32,14 +32,20 @@ function revealCard(index: number) {
     } else {
       localStorage.setItem('finals', gameState.who + gameState.where + gameState.what)
     }
-    const final = FINALS[gameState.who + gameState.where + gameState.what];
+    const final = ENDINGS[gameState.who + gameState.where + gameState.what];
     document.querySelector('#final').innerHTML = final || `We don't know! 😱`;
 
-    const foundedFinals = localStorage.getItem('finals').split(',');
-    document.querySelector('#results').innerHTML = `
-    <p>You have find ${foundedFinals.length} finals, can you find the other ${Object.keys(FINALS).length - foundedFinals.length}?</p>
+    const foundedEndings = localStorage.getItem('finals').split(',');
+    const achievement = ACHIVEMENT[gameState.who + gameState.where + gameState.what];
+    let text = ``;
+    if (achievement) {
+      text += `<p>You've unlocked:<br> <b>${achievement.title}!</b><br> <i>${achievement.description}</i></p>`
+    }
+    text += `
+    <p>You have found ${foundedEndings.length} endings, can you find the other ${Object.keys(ENDINGS).length - foundedEndings.length}?</p>
     <button id="results-button" onclick="location.reload()">REPLAY</button>
-    `;
+    `
+    document.querySelector('#results').innerHTML = text;
   }
 }
 

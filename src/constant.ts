@@ -48,7 +48,7 @@ const CARDS = [{
   }]
 }];
 
-export const FINALS = {
+export const ENDINGS = {
   '111': `
 Jeremy is a famous Chef. He was invited to a TV show to record an episode featuring his special top rated recipe. Once on site, he realised it was a set-up. The special recipe was him, and he had been invited by a secret coven of cannibals who'd been cooking up fake TV shows for months to get fresh meat. Luckily Jeremy never left his gun at home, ever since he had to defend his ingredients against a rival chef in a TV challenge. Jeremy was a clever cook, and learning from his mistakes, as he always did for his master class recipes, proved to be life-saving.<br><br>
 `,
@@ -181,7 +181,13 @@ Are they getting along now or have they just turned into even worse enemies? Tha
 We don't know! 😱
 `,
 
+}
 
+export const ACHIVEMENT = {
+  '112': {
+    title: `True ending!`,
+    description: `You discovered Jeremy's true story`
+  },
 }
 
 export const getCards: () => CardInfo[] = () => {
