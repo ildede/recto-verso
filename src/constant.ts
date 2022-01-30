@@ -188,6 +188,29 @@ export const ACHIVEMENT = {
     title: `True ending!`,
     description: `You discovered Jeremy's true story`
   },
+  '113': {
+    title: `Mass murder`,
+    description: `You have committed a mass murder`
+  }
+}
+
+export const ACHIVEMENT_TOTAL = {
+  '5': {
+    title: `Rookie`,
+    description: `You've unlocked 5 endings.`
+  },
+  '10': {
+    title: `Curious`,
+    description: `You've unlocked 10 endings.`
+  },
+  '20': {
+    title: `Passionate reader`,
+    description: `You've unlocked 20 endings.`
+  },
+  '27': {
+    title: `Master of fates`,
+    description: `You've unlocked all endings.`
+  }
 }
 
 export const getCards: () => CardInfo[] = () => {

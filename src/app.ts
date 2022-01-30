@@ -1,5 +1,5 @@
 import {FlippingCard} from './flipping-card'
-import {ACHIVEMENT, ENDINGS, getCards} from "./constant";
+import {ACHIVEMENT, ACHIVEMENT_TOTAL, ENDINGS, getCards} from "./constant";
 
 customElements.define('flipping-card', FlippingCard, {extends: 'div'});
 
@@ -36,15 +36,38 @@ function revealCard(index: number) {
     document.querySelector('#final').innerHTML = final || `We don't know! 😱`;
 
     const foundedEndings = localStorage.getItem('finals').split(',');
-    const achievement = ACHIVEMENT[gameState.who + gameState.where + gameState.what];
-    let text = ``;
-    if (achievement) {
-      text += `<p>You've unlocked:<br> <b>${achievement.title}!</b><br> <i>${achievement.description}</i></p>`
-    }
-    text += `
+    let text = `
     <p>You have found ${foundedEndings.length} endings, can you find the other ${Object.keys(ENDINGS).length - foundedEndings.length}?</p>
     <button id="results-button" onclick="location.reload()">REPLAY</button>
-    `
+    `;
+
+    const achievement = ACHIVEMENT[gameState.who + gameState.where + gameState.what];
+    if (achievement) {
+      text += `<p>You've unlocked:<br><h3>${achievement.title}</h3><i>${achievement.description}</i></p>`
+    }
+    Object.keys(ACHIVEMENT_TOTAL).forEach(n => {
+      if (foundedEndings.length == Number(n)) {
+        text += `<p>You've unlocked:<br><h3>${ACHIVEMENT_TOTAL[n].title}</h3><i>${ACHIVEMENT_TOTAL[n].description}</i></p>`
+      }
+    });
+
+    text += `<h1>Achievements</h1>`;
+    Object.keys(ACHIVEMENT_TOTAL).forEach(n => {
+      if (foundedEndings.length >= Number(n)) {
+        text += `<p><s><h3>${ACHIVEMENT_TOTAL[n].title}</h3><i>${ACHIVEMENT_TOTAL[n].description}</i></s></p>`
+      } else {
+        text += `<p><h3>${ACHIVEMENT_TOTAL[n].title}</h3><i>${ACHIVEMENT_TOTAL[n].description}</i></p>`
+      }
+    });
+
+    Object.keys(ACHIVEMENT).forEach(a => {
+      if (foundedEndings.includes(a)) {
+        text += `<p><s><h3>${ACHIVEMENT[a].title}</h3><i>${ACHIVEMENT[a].description}</i></s></p>`
+      } else {
+        text += `<p><h3>${ACHIVEMENT[a].title}</h3><i>${ACHIVEMENT[a].description}</i></p>`
+      }
+    });
+
     document.querySelector('#results').innerHTML = text;
   }
 }
