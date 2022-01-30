@@ -51,20 +51,20 @@ function revealCard(index: number) {
       }
     });
 
-    text += `<h1>Achievements</h1>`;
+    text += `<br><h1>Achievements</h1>`;
     Object.keys(ACHIVEMENT_TOTAL).forEach(n => {
       if (foundedEndings.length >= Number(n)) {
-        text += `<p><s><h3>${ACHIVEMENT_TOTAL[n].title}</h3><i>${ACHIVEMENT_TOTAL[n].description}</i></s></p>`
+        text += `<p><h4><s>${ACHIVEMENT_TOTAL[n].title}</s></h4><s><i>${ACHIVEMENT_TOTAL[n].description}</i></s></p>`
       } else {
-        text += `<p><h3>${ACHIVEMENT_TOTAL[n].title}</h3><i>${ACHIVEMENT_TOTAL[n].description}</i></p>`
+        text += `<p><h4>${ACHIVEMENT_TOTAL[n].title}</h4><i>${ACHIVEMENT_TOTAL[n].description}</i></p>`
       }
     });
 
     Object.keys(ACHIVEMENT).forEach(a => {
       if (foundedEndings.includes(a)) {
-        text += `<p><s><h3>${ACHIVEMENT[a].title}</h3><i>${ACHIVEMENT[a].description}</i></s></p>`
+        text += `<p><h4><s>${ACHIVEMENT[a].title}</s></h4><s><i>${ACHIVEMENT[a].description}</i></s></p>`
       } else {
-        text += `<p><h3>${ACHIVEMENT[a].title}</h3><i>${ACHIVEMENT[a].description}</i></p>`
+        text += `<p><h4>${ACHIVEMENT[a].title}</h4><i>${ACHIVEMENT[a].description}</i></p>`
       }
     });
 

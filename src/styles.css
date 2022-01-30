@@ -39,9 +39,20 @@ h2 {
 h3 {
     color: #FFCE00;
 }
+h4 {
+    color: #FFCE00;
+}
 
 p {
     margin: .5em;
+}
+
+a {
+    color: inherit;
+    /*text-decoration: none;*/
+}
+a:hover {
+    border-bottom: 1px solid #fff9;
 }
 
 .cards {
