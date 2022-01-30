@@ -75,34 +75,34 @@ Poor Jeremy. You wanted to get rid of this all, but you did already, and now you
 `,
 
   '122': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '123': `
 Jeremy is an aspiring cook. He is participating in a contest at his local cooking academy, and he has to share his favorite recipe with the rest of the class and the teachers. It's a callenge, and a rich treasure is up for grabs. He's sure to have victory in his pocket, with his Galette saucisse flambé drizzled with 8.6 beer. The master chef, Jean Michel, is impressed by Jeremy's cooking skills, and when the challenge is over greets Jeremy and promises him to keep him posted on the outcome of the contest.<br><br>
-Months pass, but the master chef never gets back to Jeremy. That's why Jeremy is genuinely surprised when he sees his teacher Jean Michel attending a TV show cooking contest. But hey, what is that dish he's sharing with the audience? Oh, it's just his secret masterpiece. Oh noes! That's Jeremy's ""galette saucisse flambé drizzled with 8.6 beer""!<br><br> 
-Good job, Jeremy. Your recipe was indeed a blast and won the first prize. Unfortunately, Jeremy, your treasure is in another kitchen...""<br><br>
+Months pass, but the master chef never gets back to Jeremy. That's why Jeremy is genuinely surprised when he sees his teacher Jean Michel attending a TV show cooking contest. But hey, what is that dish he's sharing with the audience? Oh, it's just his secret masterpiece. Oh noes! That's Jeremy's "galette saucisse flambé drizzled with 8.6 beer"!<br><br> 
+Good job, Jeremy. Your recipe was indeed a blast and won the first prize. Unfortunately, Jeremy, your treasure is in another kitchen..."<br><br>
 `,
 
   '131': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '132': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '133': `
-We don't know! 😱
+Fate not found
 `,
 
   '211': `
-Jeremy is an Italian-American chef and has been invited to an elementary school to hold cooking class and teach kids about food from the rest of the world. Jeremy is very proud of his Italian roots, and has learned his trade in the oldest trattorias in central Italy. That's why on that day he wanted to surprise the class and share his most famous recipe: pasta alla carbonara. A worldwide known recipe which is also simple, hearty and quick to prepare. Jeremy, however, had underestimated a problem of the greatest importance. The ingredients. What an amateur's mistake! When he got in the classroom, the guanciale cured meat and the pecorino cheese he had asked for had been replaced by bland bacon cubes and very ordinary parmesan. But, even worse, the ultimate outrage: cream. Jeremy lost his mind, and pulling out the gun he had been carrying since someone tried to kill him after he published his controversial book ""Pepperoni is not salami"", he took hostage the whole class. When he managed to get on the phone with the police negotiator, his demands were perfectly clear and fair: he would let everyone go only after airing a cooking class on multiple TV channels featuring <i>""La Carbonara""</i>.<br><br>
+Jeremy is an Italian-American chef and has been invited to an elementary school to hold cooking class and teach kids about food from the rest of the world. Jeremy is very proud of his Italian roots, and has learned his trade in the oldest trattorias in central Italy. That's why on that day he wanted to surprise the class and share his most famous recipe: pasta alla carbonara. A worldwide known recipe which is also simple, hearty and quick to prepare. Jeremy, however, had underestimated a problem of the greatest importance. The ingredients. What an amateur's mistake! When he got in the classroom, the guanciale cured meat and the pecorino cheese he had asked for had been replaced by bland bacon cubes and very ordinary parmesan. But, even worse, the ultimate outrage: cream. Jeremy lost his mind, and pulling out the gun he had been carrying since someone tried to kill him after he published his controversial book "Pepperoni is not salami", he took hostage the whole class. When he managed to get on the phone with the police negotiator, his demands were perfectly clear and fair: he would let everyone go only after airing a cooking class on multiple TV channels featuring <i>"La Carbonara"</i>.<br><br>
 Jeremy succeeded in his intent, the special broadcast broke all audience records and finally justice came: no one in the whole world ever dared again to put obscene ingredients such as mushrooms, shredded carrots, fried eggs nor - especially - cream in carbonara pasta.<br><br>
 `,
 
   '212': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '213': `
@@ -126,7 +126,7 @@ You unlocked a special content: <a href="https://www.youtube.com/watch?v=bQtPzo-
 `,
 
   '222': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '223': `
@@ -138,11 +138,11 @@ Right on time, like every 27 years, the mimic woke up, hungry for human sacrific
 `,
 
   '231': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '232': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '233': `
@@ -152,35 +152,47 @@ Are you wondering how is Jeremy and where you can find him? Let us tell you that
 `,
 
   '311': `
-Jeremy is a famous musician. Everybody knows at least two songs of his. For 3 years in a row, he won the prize for the best singer. All of a sudden, he disappeared from the music scene. No one knew what happened. After 2 years, we all hear on the radio that Jeremy is going to make his grandiose and long-awaited comeback. It's Friday evening and we are all sitting in front of our TVs, holding our popcorn bowls tightly. Don't we all hate sharing our popcorn? ""TYFG"" (Thank you, Friday, for the Gossip!) will air in 5 minutes.<br><br>
-Oh no! What's going on?! All of a sudden, the transmission is interrupted. We can all see an unanticipated message on the screen: ""Jeremy is on our TV set with a gun, saying that he will kill himself. The TV show cannot be aired because we did not have enough money to pay our electricity bill. Please donate as much as you can so we can pay our bill as we speak, and to be able to show you live images from the TV set.""<br><br>
+Jeremy is a famous musician. Everybody knows at least two songs of his. For 3 years in a row, he won the prize for the best singer. All of a sudden, he disappeared from the music scene. No one knew what happened. After 2 years, we all hear on the radio that Jeremy is going to make his grandiose and long-awaited comeback. It's Friday evening and we are all sitting in front of our TVs, holding our popcorn bowls tightly. Don't we all hate sharing our popcorn? "TYFG" (Thank you, Friday, for the Gossip!) will air in 5 minutes.<br><br>
+Oh no! What's going on?! All of a sudden, the transmission is interrupted. We can all see an unanticipated message on the screen: "Jeremy is on our TV set with a gun, saying that he will kill himself. The TV show cannot be aired because we did not have enough money to pay our electricity bill. Please donate as much as you can so we can pay our bill as we speak, and to be able to show you live images from the TV set."<br><br>
 15 minutes later, the donations reach 1 million U.S. dollars, and the TV show gets back online. Jeremy and Jennifer, the hostess, give each other a fist bump. Once again... what's going on?!<br><br>
-Jeremy bursts into tears and tells us his story. He disappeared from the music scene because he couldn't take it anymore. The fake news about him, the paparazzi all over the place, the sleepless nights, the lonesomeness... these were the factors that triggered his depression. The whole ""electricity bill"" story was invented, because he knew that people would donate more for a morbid gossip story instead of donating to help the others.<br><br>
+Jeremy bursts into tears and tells us his story. He disappeared from the music scene because he couldn't take it anymore. The fake news about him, the paparazzi all over the place, the sleepless nights, the lonesomeness... these were the factors that triggered his depression. The whole "electricity bill" story was invented, because he knew that people would donate more for a morbid gossip story instead of donating to help the others.<br><br>
 All the money raised were distributed to raise awareness and to support advanced research on mental disorders. Now this was a remarkable comeback!<br><br>
 `,
 
   '312': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '313': `
-We don't know! 😱
+Jeremy is a rising star in the music industry, and today he is on a film set recording the video for his latest song. It's going to be a worldwide hit. Coincidentally you're there too, you've been invited for a cooking tasting held in a studio upstairs, to be the audience for a cooking show. You got the wrong floor, and now you're there and enjoying the moment. At worst you'll miss some cook's delicacy.<br><br>
+You don't know how much this little oversight will impact your life, but that's a story for another day. <br><br>
+But that's not all: Jeremy likes you, and decides to gift you his treasure. An unedited copy of the content he just recorded. He knows that it will be invaluable, someday.<br><br>
+You get home, and impatiently enter the VHS into the VCR.<br><br>
+Oh, apparently Jeremy was just a stage name...<br><br>
+Enjoy! 
+You unlocked a special content > <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a><br><br>
 `,
 
   '321': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '322': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '323': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
   '331': `
-We don't know! 😱
+Jeremy is a circus star, and today he will perform his most famous show. He's ready, and all eyes are on him.<br><br>
+The announcer points the prop gun in the air, to kick off the performance. Unfortunately, the gun was loaded, and the bullet pierces the circus tent. The additional protection that had been placed above the circus to spare it from the incessant rain and that was now swollen with rainwater is reached by the bullet and rips open, completely flooding over the audience and the entire circus crew.<br><br>
+It is a massacre. No one is left alive.<br><br>
+But what about Jeremy?<br><br>
+Jeremy is the only one spared by the disaster, and making his way through the debris and bodies, he gets away quietly, leaving behind death and destruction.<br><br>
+He will finally be able to return home, back to the Louisiana's bayou from where he was torn as a baby, the size of a lizard, only to end up in a cage in one of the region's historic circuses.<br><br>
+Welcome home, Jeremy the alligator!<br><br>
 `,
 
   '332': `
@@ -192,7 +204,7 @@ Are they getting along now or have they just turned into even worse enemies? Tha
 `,
 
   '333': `
-We don't know! 😱
+W.I.P.! 😅
 `,
 
 }
@@ -202,6 +214,22 @@ export const ACHIVEMENT = {
     title: `Jeremy is Jean Michel!`,
     description: `You discovered Jeremy's true story`
   },
+  '313': {
+    title: `I didn't see this coming!`,
+    description: `You have been tRolled!`
+  },
+  '221': {
+    title: `You dodged the bullet!`,
+    description: `You redeemed Jeremy`
+  },
+  '113': {
+    title: `Slaughterhouse!`,
+    description: `You have committed a mass murder`
+  },
+  '133': {
+    title: `# 404!`,
+    description: `These cards make no sense at all`
+  }
 }
 
 export const ACHIVEMENT_TOTAL = {

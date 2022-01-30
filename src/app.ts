@@ -1,3 +1,4 @@
+import '@ungap/custom-elements';
 import {FlippingCard} from './flipping-card'
 import {ACHIVEMENT, ACHIVEMENT_TOTAL, ENDINGS, getCards} from "./constant";
 
@@ -33,7 +34,7 @@ function revealCard(index: number) {
       localStorage.setItem('finals', gameState.who + gameState.where + gameState.what)
     }
     const final = ENDINGS[gameState.who + gameState.where + gameState.what];
-    document.querySelector('#final').innerHTML = final || `We don't know! 😱`;
+    document.querySelector('#final').innerHTML = final || `We don't know what happened here! 😱`;
 
     const foundedEndings = localStorage.getItem('finals').split(',');
     let text = `
